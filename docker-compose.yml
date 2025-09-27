@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: avaire_postgres
+    environment:
+      POSTGRES_USER: avaire_user
+      POSTGRES_PASSWORD: avaire_password
+      POSTGRES_DB: avaire_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - avaire_network
+
+  # FastAPI Backend
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: avaire_backend
+    environment:
+      - DATABASE_URL=postgresql://avaire_user:avaire_password@postgres:5432/avaire_db
+      - SECRET_KEY=your-secret-key-change-in-production
+      - CORS_ORIGINS=http://localhost:3000
+    volumes:
+      - ./storage:/app/storage
+      - ./ml:/app/ml
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    networks:
+      - avaire_network
+
+  # Next.js Frontend
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: avaire_frontend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - avaire_network
+
+volumes:
+  postgres_data:
+
+networks:
+  avaire_network:
+    driver: bridge

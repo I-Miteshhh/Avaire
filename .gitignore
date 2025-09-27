@@ -1,0 +1,66 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# ML models and large files
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+models/checkpoints/
+models/downloads/
+
+# Storage and uploads
+storage/uploads/
+storage/temp/
+storage/models/
+
+# Build outputs
+frontend/.next/
+frontend/out/
+frontend/dist/
+backend/dist/
+
+# Test coverage
+coverage/
+.coverage
+.nyc_output
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp

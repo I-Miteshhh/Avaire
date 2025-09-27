@@ -1,0 +1,218 @@
+[
+  {
+    "session_id": "TRYON-01-01",
+    "user_id": 1,
+    "outfit_id": 3,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-01-02",
+    "user_id": 1,
+    "outfit_id": 4,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-02-01",
+    "user_id": 2,
+    "outfit_id": 6,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-02-02",
+    "user_id": 2,
+    "outfit_id": 8,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-03-01",
+    "user_id": 3,
+    "outfit_id": 9,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-03-02",
+    "user_id": 3,
+    "outfit_id": 12,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-04-01",
+    "user_id": 4,
+    "outfit_id": 12,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-04-02",
+    "user_id": 4,
+    "outfit_id": 16,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-05-01",
+    "user_id": 5,
+    "outfit_id": 15,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-05-02",
+    "user_id": 5,
+    "outfit_id": 20,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-06-01",
+    "user_id": 6,
+    "outfit_id": 18,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-06-02",
+    "user_id": 6,
+    "outfit_id": 24,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-07-01",
+    "user_id": 7,
+    "outfit_id": 21,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-07-02",
+    "user_id": 7,
+    "outfit_id": 28,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-08-01",
+    "user_id": 8,
+    "outfit_id": 24,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-08-02",
+    "user_id": 8,
+    "outfit_id": 32,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-09-01",
+    "user_id": 9,
+    "outfit_id": 27,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-09-02",
+    "user_id": 9,
+    "outfit_id": 36,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-10-01",
+    "user_id": 10,
+    "outfit_id": 30,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-10-02",
+    "user_id": 10,
+    "outfit_id": 40,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-11-01",
+    "user_id": 11,
+    "outfit_id": 33,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-11-02",
+    "user_id": 11,
+    "outfit_id": 44,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-12-01",
+    "user_id": 12,
+    "outfit_id": 36,
+    "user_rating": 3,
+    "user_feedback": "Looks good",
+    "was_shared": false,
+    "was_purchased_after": false
+  },
+  {
+    "session_id": "TRYON-12-02",
+    "user_id": 12,
+    "outfit_id": 48,
+    "user_rating": 4,
+    "user_feedback": "Loved the drape",
+    "was_shared": true,
+    "was_purchased_after": false
+  }
+]

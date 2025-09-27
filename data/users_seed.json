@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "email": "user01@avaire.in",
+    "first_name": "User01",
+    "last_name": "Test",
+    "phone_number": "+91-900000001",
+    "created_at": "2024-11-02T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "email": "user02@avaire.in",
+    "first_name": "User02",
+    "last_name": "Test",
+    "phone_number": "+91-900000002",
+    "created_at": "2024-11-03T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "email": "user03@avaire.in",
+    "first_name": "User03",
+    "last_name": "Test",
+    "phone_number": "+91-900000003",
+    "created_at": "2024-11-04T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "email": "user04@avaire.in",
+    "first_name": "User04",
+    "last_name": "Test",
+    "phone_number": "+91-900000004",
+    "created_at": "2024-11-05T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "email": "user05@avaire.in",
+    "first_name": "User05",
+    "last_name": "Test",
+    "phone_number": "+91-900000005",
+    "created_at": "2024-11-06T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "email": "user06@avaire.in",
+    "first_name": "User06",
+    "last_name": "Test",
+    "phone_number": "+91-900000006",
+    "created_at": "2024-11-07T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "email": "user07@avaire.in",
+    "first_name": "User07",
+    "last_name": "Test",
+    "phone_number": "+91-900000007",
+    "created_at": "2024-11-08T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "email": "user08@avaire.in",
+    "first_name": "User08",
+    "last_name": "Test",
+    "phone_number": "+91-900000008",
+    "created_at": "2024-11-09T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "email": "user09@avaire.in",
+    "first_name": "User09",
+    "last_name": "Test",
+    "phone_number": "+91-900000009",
+    "created_at": "2024-11-10T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "email": "user10@avaire.in",
+    "first_name": "User10",
+    "last_name": "Test",
+    "phone_number": "+91-900000010",
+    "created_at": "2024-11-11T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 11,
+    "email": "user11@avaire.in",
+    "first_name": "User11",
+    "last_name": "Test",
+    "phone_number": "+91-900000011",
+    "created_at": "2024-11-12T00:00:00",
+    "is_active": true
+  },
+  {
+    "id": 12,
+    "email": "user12@avaire.in",
+    "first_name": "User12",
+    "last_name": "Test",
+    "phone_number": "+91-900000012",
+    "created_at": "2024-11-13T00:00:00",
+    "is_active": true
+  }
+]
