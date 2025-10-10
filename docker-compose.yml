@@ -30,6 +30,7 @@ services:
     volumes:
       - ./storage:/app/storage
       - ./ml:/app/ml
+      - model-cache:/root/.cache  # Cache ML models to prevent re-downloads
     ports:
       - "8000:8000"
     depends_on:
@@ -54,6 +55,7 @@ services:
 
 volumes:
   postgres_data:
+  model-cache:  # Persistent cache for ML models (prevents re-downloading GBs on restart)
 
 networks:
   avaire_network:

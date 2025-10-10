@@ -1,0 +1,23 @@
+# Backend .dockerignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.git/
+.gitignore
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
