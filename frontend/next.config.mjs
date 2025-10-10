@@ -4,6 +4,7 @@ const require = createRequire(import.meta.url);
 
 const nextConfig = {
   reactStrictMode: true,
+  output: 'standalone', // Enable for Docker deployment
   experimental: {
     appDir: true
   },
