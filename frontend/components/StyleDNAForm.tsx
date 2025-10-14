@@ -154,25 +154,61 @@ function VibeStep({ form, onChange, onContinue }: StepProps & { onContinue: () =
 
 function FitStep({ form, onChange, onContinue, onBack }: StepProps & { onContinue: () => void; onBack: () => void }) {
   const heights = ["155", "160", "165", "170"];
-  const fits = ["relaxed", "regular", "structured"];
+  const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
 
   return (
     <div className="space-y-6">
       <section>
-        <h3 className="text-lg font-semibold">Tell us your fit sweet spot</h3>
-        <div className="mt-4 flex gap-3">
-          {fits.map((fit) => (
-            <button
-              key={fit}
-              type="button"
-              onClick={() => onChange({ fit_type: fit })}
-              className={`rounded-full px-4 py-2 text-sm transition ${
-                form.fit_type === fit ? "bg-brand text-white" : "bg-slate-800 text-slate-200"
-              }`}
+        <h3 className="text-lg font-semibold">Select your size preferences</h3>
+        <div className="mt-4 grid gap-4 md:grid-cols-3">
+          <label className="space-y-2 text-sm">
+            Bust Size
+            <select
+              value={form.bust_size ?? "M"}
+              onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+                onChange({ bust_size: event.target.value })
+              }
+              className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2"
             >
-              {fit}
-            </button>
-          ))}
+              {sizes.map((size) => (
+                <option key={size} value={size}>
+                  {size}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="space-y-2 text-sm">
+            Waist Size
+            <select
+              value={form.waist_size ?? "M"}
+              onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+                onChange({ waist_size: event.target.value })
+              }
+              className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2"
+            >
+              {sizes.map((size) => (
+                <option key={size} value={size}>
+                  {size}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="space-y-2 text-sm">
+            Hip Size
+            <select
+              value={form.hip_size ?? "M"}
+              onChange={(event: ChangeEvent<HTMLSelectElement>) =>
+                onChange({ hip_size: event.target.value })
+              }
+              className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2"
+            >
+              {sizes.map((size) => (
+                <option key={size} value={size}>
+                  {size}
+                </option>
+              ))}
+            </select>
+          </label>
         </div>
       </section>
       <section className="grid gap-4 md:grid-cols-2">

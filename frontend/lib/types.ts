@@ -33,7 +33,11 @@ export interface StyleDNAProfile {
   body_type: string;
   height_cm: number;
   weight_kg: number;
+  bust_size?: string;
+  waist_size?: string;
+  hip_size?: string;
   preferred_colors: string[];
+  avoided_colors?: string[];
   preferred_styles: string[];
   preferred_occasions: string[];
   lifestyle: string;
