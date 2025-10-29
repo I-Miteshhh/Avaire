@@ -1,518 +1,236 @@
-# 🎯 Complete Learning Path for 30 LPA SDE (Data Role)
-### Structured 16-Week Journey from Fundamentals to Expert Level
+# 30 LPA SDE (Data) Learning Path
 
-**Target Role:** Senior/Staff Data Engineer, SDE-3 Data  
-**Target Compensation:** 30-40 LPA  
-**Total Study Time:** 16 weeks (400-500 hours)  
-**Difficulty Progression:** Foundation → Intermediate → Advanced → Expert
+_Last updated: 2025-10-30_**What You'll Learn:**
 
----
-
-## 📊 Learning Path Overview
-
-This learning path is designed to build your skills progressively, ensuring each phase prepares you for the next. The path is organized into **4 phases**:
-
-1. **Phase 1: Foundations** (Weeks 1-4) - Core CS fundamentals
-2. **Phase 2: Intermediate** (Weeks 5-8) - Data engineering essentials
-3. **Phase 3: Advanced** (Weeks 9-12) - Distributed systems & production patterns
-4. **Phase 4: Expert** (Weeks 13-16) - System design & interview prep
-
----
-
-## 🎓 Phase 1: Foundations (Weeks 1-4)
-### Goal: Master core computer science fundamentals
-
-### Week 1: Programming Fundamentals & Data Structures Basics
-
-#### Day 1-2: Arrays and ArrayList
-📁 `Data Structures (Java)/01-Arrays-and-ArrayList.md`
-
-**What You'll Learn:**
-- Array fundamentals, dynamic arrays
-- ArrayList internals, capacity expansion
-- Common operations: insertion, deletion, search
-- Time complexity analysis
-
-**Practice:**
-- Two Sum, Best Time to Buy/Sell Stock
-- Remove duplicates, merge sorted arrays
-- Implement ArrayList from scratch
-
-**Real-world Application:**
-- Data buffering in streaming pipelines
-- Batch processing in ETL jobs
-
----
-
-#### Day 3-4: Linked Lists
-📁 `Data Structures (Java)/02-LinkedList.md`
-
-**What You'll Learn:**
-- Singly, doubly, circular linked lists
-- Fast/slow pointer technique
-- Reverse, merge, detect cycles
-
-**Practice:**
-- Reverse linked list, detect cycle
-- Merge K sorted lists
-- LRU Cache foundation
-
-**Real-world Application:**
-- Memory-efficient data structures
-- Task queues, event buffers
-
----
-
-#### Day 5-7: Stacks, Queues & Deque
-📁 `Data Structures (Java)/03-Stack-and-Queue.md`  
-📁 `Data Structures (Java)/04-Deque-and-PriorityQueue.md`
-
-**What You'll Learn:**
-- Stack (LIFO), Queue (FIFO), Deque, PriorityQueue
-- Implementation using arrays and linked lists
-- Expression evaluation, monotonic stack/queue
-- Heap data structure fundamentals
-
-**Practice:**
-- Valid parentheses, largest rectangle in histogram
-- Sliding window maximum
-- Top K frequent elements
-
-**Real-world Application:**
-- Task scheduling, job queues
-- Rate limiting with sliding window
-- Priority-based message processing
-
----
-
-### Week 2: Core Algorithms - Sorting & Searching
-
-#### Day 1-3: Sorting Algorithms
-📁 `Algorithms/01-Sorting-Algorithms.md`
-
-**What You'll Learn:**
-- QuickSort, MergeSort, HeapSort (comparison-based)
-- Counting Sort, Radix Sort, Bucket Sort (non-comparison)
-- External sort for large datasets
-- Time/space complexity trade-offs
-
-**Practice:**
-- Kth largest element
-- Merge K sorted arrays
-- Dutch National Flag problem
-
-**Real-world Application:**
-- Distributed sorting in Spark
-- External merge sort for big data
-- Partition ordering in columnar formats
-
----
-
-#### Day 4-7: Binary Search & Variations
-📁 `Algorithms/02-Binary-Search-Variations.md`
-
-**What You'll Learn:**
-- Classic binary search O(log n)
-- First/last occurrence, rotated arrays
-- Binary search on answer space
-- Median of two sorted arrays
-
-**Practice:**
-- Search in rotated sorted array
-- Find peak element
-- Koko eating bananas, split array
-
-**Real-world Application:**
-- Time-series data lookups
-- Partition pruning in data lakes
-- Index-based query optimization
-
----
-
-### Week 3: Hash Maps, Trees & Advanced Data Structures
-
-#### Day 1-2: HashMap and HashSet
-📁 `Data Structures (Java)/05-HashMap-and-HashSet.md`
-
-**What You'll Learn:**
-- Hash functions, collision resolution
-- Open addressing vs chaining
-- Load factor, rehashing
-- Java HashMap internals (buckets, red-black trees)
-
-**Practice:**
-- Two sum, group anagrams
-- LRU Cache implementation
-- Design HashMap from scratch
-
-**Real-world Application:**
-- In-memory caching (Redis)
-- Deduplication in ETL pipelines
-- Join optimizations
-
----
-
-#### Day 3-4: TreeMap and TreeSet
-📁 `Data Structures (Java)/06-TreeMap-and-TreeSet.md`
-
-**What You'll Learn:**
-- Self-balancing trees (Red-Black trees)
-- TreeMap/TreeSet operations O(log n)
-- Range queries, ceiling/floor operations
-
-**Practice:**
-- Range sum query
-- Count smaller elements after self
-- Skyline problem
-
-**Real-world Application:**
-- Time-range queries in time-series databases
-- Sorted data structures for analytics
-- Index structures in databases
-
----
-
-#### Day 5-7: Advanced Data Structures
-📁 `Data Structures (Java)/07-Trie.md`  
-📁 `Data Structures (Java)/08-Segment-Tree-and-Fenwick-Tree.md`  
-📁 `Data Structures (Java)/10-Union-Find.md`
-
-**What You'll Learn:**
-- **Trie:** Prefix trees for string operations
-- **Segment Tree:** Range queries and updates
-- **Fenwick Tree (BIT):** Efficient prefix sums
-- **Union-Find:** Disjoint set operations
-
-**Practice:**
-- Implement Trie, word search
-- Range sum/min/max queries
-- Number of islands, accounts merge
-
-**Real-world Application:**
-- Autocomplete systems
-- Real-time aggregations
-- Network connectivity, data deduplication
-
----
-
-### Week 4: Core Algorithm Patterns
-
-#### Day 1-2: Two Pointers & Sliding Window
-📁 `Algorithms/03-Two-Pointers-Sliding-Window.md`
-
-**What You'll Learn:**
-- Same/opposite direction pointers
-- Fixed/variable window size
-- Optimization techniques
-
-**Practice:**
-- Container with most water
-- Longest substring without repeating chars
-- Minimum window substring
-
-**Real-world Application:**
-- Stream processing windows
-- Time-series aggregations
-- Log analysis patterns
-
----
-
-#### Day 3-5: Dynamic Programming
-📁 `Algorithms/05-Dynamic-Programming.md`
-
-**What You'll Learn:**
-- Memoization vs tabulation
-- 1D/2D DP patterns
-- State optimization techniques
-
-**Practice:**
-- Coin change, longest increasing subsequence
-- Edit distance, regex matching
-- Stock trading problems
-
-**Real-world Application:**
-- Resource allocation
-- Cost optimization
-- Query optimization
-
----
-
-#### Day 6-7: Greedy Algorithms
-📁 `Algorithms/06-Greedy-Algorithms.md`
-
-**What You'll Learn:**
-- Greedy choice property
-- Proof of correctness
-- When greedy works vs DP
-
-**Practice:**
-- Jump game, gas station
-- Meeting rooms, interval scheduling
-- Huffman encoding
-
-**Real-world Application:**
-- Task scheduling
-- Resource allocation
-- Compression algorithms
-
----
-
-## 🚀 Phase 2: Intermediate (Weeks 5-8)
-### Goal: Master data engineering fundamentals
-
-### Week 5: Object-Oriented Design & SOLID Principles
-
-#### Day 1-3: OOP Fundamentals
-📁 `LLD (Low-Level Design)/01-OOP-Principles.md`  
-📁 `LLD (Low-Level Design)/01-OOP-Principles-PART2.md`
-
-**What You'll Learn:**
-- Encapsulation, inheritance, polymorphism, abstraction
-- Composition over inheritance
-- Interfaces vs abstract classes
-- Design by contract
-
-**Practice:**
-- Design class hierarchies
-- Implement polymorphic behavior
-- Refactor procedural code to OOP
-
-**Real-world Application:**
-- Framework design (Spark, Flink APIs)
-- Plugin architectures
-- Extensible data pipelines
-
----
-
-#### Day 4-7: SOLID Principles
-📁 `LLD (Low-Level Design)/01-SOLID-PRINCIPLES/`
-
-**What You'll Learn:**
-- **S**ingle Responsibility Principle
-- **O**pen/Closed Principle
-- **L**iskov Substitution Principle
-- **I**nterface Segregation Principle
-- **D**ependency Inversion Principle
-
-**Practice:**
-- Refactor code to follow SOLID
-- Identify violations in existing code
-- Design extensible systems
-
-**Real-world Application:**
-- Maintainable data pipelines
-- Testable code
-- Scalable system architecture
-
----
-
-### Week 6: Design Patterns (Creational & Structural)
-
-#### Day 1-4: Creational Patterns
-📁 `Data Structures (Java)/11-Design-Patterns-PART1.md`
-
-**What You'll Learn:**
-- Factory Method, Abstract Factory
-- Builder Pattern (telescoping constructors problem)
-- Singleton Pattern (thread-safe implementations)
-- Prototype Pattern
-
-**Practice:**
-- Design configuration builders
-- Implement thread-safe singletons
-- Factory pattern for data source creation
-
-**Real-world Application:**
-- Spark Session creation
-- Kafka Producer/Consumer configuration
-- Connection pool management
-
----
-
-#### Day 5-7: Structural Patterns
-📁 `Data Structures (Java)/11-Design-Patterns-PART2.md`
-
-**What You'll Learn:**
-- Adapter, Bridge, Composite
-- Decorator, Facade, Flyweight, Proxy
-
-**Practice:**
-- Wrap legacy APIs (Adapter)
-- Add functionality dynamically (Decorator)
-- Simplify complex subsystems (Facade)
-
-**Real-world Application:**
-- Data format conversions
-- Caching layers (Proxy)
-- API wrappers for external services
-
----
-
-### Week 7: Design Patterns (Behavioral) & Concurrency
-
-#### Day 1-4: Behavioral Patterns
-📁 `Data Structures (Java)/11-Design-Patterns-PART3.md`  
-📁 `Data Structures (Java)/11-Design-Patterns-PART4.md`
-
-**What You'll Learn:**
-- Strategy, Observer, Command
-- Template Method, State, Chain of Responsibility
-- Iterator, Visitor, Mediator
-
-**Practice:**
-- Event-driven systems (Observer)
-- Pluggable algorithms (Strategy)
-- State machines
-
-**Real-world Application:**
-- Event processing pipelines
-- ETL transformation chains
-- Workflow orchestration
-
----
-
-#### Day 5-7: Concurrency Patterns
-📁 `Data Structures (Java)/12-Concurrency-Patterns.md`
-
-**What You'll Learn:**
-- Executor Framework (thread pools)
-- CompletableFuture & async programming
-- Fork/Join Framework for parallel processing
-- Concurrent collections (ConcurrentHashMap)
-- Lock-free algorithms
-
-**Practice:**
-- Parallel data processing
-- Async API calls
-- Thread-safe data structures
-
-**Real-world Application:**
-- Parallel ETL processing
-- Concurrent API requests
-- Multi-threaded aggregations
-
----
-
-### Week 8: Graph Algorithms & Advanced Trees
-
-#### Day 1-3: Graph Algorithms (BFS/DFS)
-📁 `Algorithms/08-Graph-Algorithms-BFS-DFS.md`
-
-**What You'll Learn:**
 - Graph representations (adjacency list/matrix)
-- BFS, DFS traversals
-- Topological sort
-- Detect cycles
 
-**Practice:**
-- Number of islands
+## Snapshot- BFS, DFS traversals
+
+- Target role: Senior/Staff Data Engineer (SDE-3)- Topological sort
+
+- Target compensation: 30–40 LPA- Detect cycles
+
+- Suggested duration: 16 weeks (≈450 study hours)
+
+- Directory root: `Learning Resources/`**Practice:**
+
+- Progression: Fundamentals → Design → Distributed Systems → Data Engineering Deep Dive- Number of islands
+
 - Course schedule (topological sort)
-- Word ladder
 
-**Real-world Application:**
-- Dependency resolution
-- Data lineage tracking
-- Network topology analysis
+## Phase 1 – Core CS Foundations (Weeks 1–4)- Word ladder
 
----
+### Data Structures Track (`Data Structures (Java)/`)
 
-#### Day 4-5: Shortest Path Algorithms
-📁 `Algorithms/09-Shortest-Path-Algorithms.md`
+- `01-Arrays-and-ArrayList.md` – array internals, dynamic resizing, amortized analysis.**Real-world Application:**
 
-**What You'll Learn:**
+- `02-LinkedList.md` – classic pointer patterns, cycle detection, merge techniques.- Dependency resolution
+
+- `03-Stack-and-Queue.md` – stack/queue design, monotonic structures, expression evaluation.- Data lineage tracking
+
+- `04-Deque-and-PriorityQueue.md` – double-ended queues, heap fundamentals, priority scheduling.- Network topology analysis
+
+- `05-HashMap-and-HashSet.md` – hashing theory, collision resolution, load-factor tuning.
+
+- `06-TreeMap-and-TreeSet.md` – balanced trees, ordered data access, range queries.---
+
+- `07-Trie.md` – prefix indexes, dictionary operations, autocomplete foundations.
+
+- `08-Segment-Tree-and-Fenwick-Tree.md` – range queries/updates for analytical workloads.#### Day 4-5: Shortest Path Algorithms
+
+- `10-Union-Find.md` – disjoint-set operations, connectivity detection.📁 `Algorithms/09-Shortest-Path-Algorithms.md`
+
+- `11-Design-Patterns-PART1..4.md` – catalog of creational/structural/behavioral patterns in Java.
+
+- `12-Concurrency-Patterns.md` – executor services, async primitives, lock-free designs.**What You'll Learn:**
+
 - Dijkstra's algorithm
-- Bellman-Ford (negative weights)
-- Floyd-Warshall (all-pairs)
 
-**Practice:**
-- Network delay time
-- Cheapest flights with K stops
+### Algorithms Track (`Algorithms/`)- Bellman-Ford (negative weights)
 
-**Real-world Application:**
-- Route optimization
-- Cost minimization
-- Network routing
+- `01-Sorting-Algorithms.md` – comparison vs non-comparison sorts, external sorting.- Floyd-Warshall (all-pairs)
 
----
+- `02-Binary-Search-Variations.md` – search-on-answer patterns, rotated arrays, root finding.
 
-#### Day 6-7: Tree Algorithms
+- `03-Two-Pointers-Sliding-Window.md` – streaming window strategies for log processing.**Practice:**
+
+- `04-Recursion-Backtracking.md` – recursion tree analysis, pruning heuristics.- Network delay time
+
+- `05-Dynamic-Programming.md` – state compression, iterative DP templates.- Cheapest flights with K stops
+
+- `06-Greedy-Algorithms.md` – proof techniques, scheduling, resource allocation.
+
+- `08-Graph-Algorithms-BFS-DFS.md` – traversal frameworks, component detection.**Real-world Application:**
+
+- `09-Shortest-Path-Algorithms.md` – Dijkstra, Bellman-Ford, all-pairs strategies.- Route optimization
+
+- `10-MST-Algorithms.md` – spanning tree design, cut and cycle properties.- Cost minimization
+
+- `11-Tree-Algorithms.md` – traversal orders, LCA, diameter computations.- Network routing
+
+- `12-String-Algorithms.md` – pattern matching, suffix structures, tries.
+
+- `13-Bit-Manipulation.md` – masks, subsets, space-efficient computations.---
+
+- `14-Distributed-Algorithms-Production-Part1..3.md` – consistent hashing, rate limiting, distributed locking.
+
+- `15-Streaming-Algorithms-Real-Time-Data.md` – sketches, approximate counting, sliding statistics.#### Day 6-7: Tree Algorithms
+
 📁 `Algorithms/11-Tree-Algorithms.md`
 
-**What You'll Learn:**
-- Binary tree traversals (inorder, preorder, postorder)
-- BST operations
-- Lowest common ancestor
-- Tree diameter, height
+## Phase 2 – Software Design & Concurrency (Weeks 5–6)
+
+### Low-Level Design (`LLD (Low-Level Design)/`)**What You'll Learn:**
+
+- `01-OOP-Principles.md` and `01-OOP-Principles-PART2.md` – object modeling, inheritance vs composition.- Binary tree traversals (inorder, preorder, postorder)
+
+- `01-SOLID-PRINCIPLES/` – applied refactoring guides for extensible services.- BST operations
+
+- `02-DESIGN-PATTERNS/` – pattern reference cards with Java implementations.- Lowest common ancestor
+
+- `03-CASE-STUDIES/` – end-to-end object modeling exercises.- Tree diameter, height
+
+- `04-CONCURRENCY-PATTERNS/` – thread-safety blueprints, producer/consumer, reactor pattern.
 
 **Practice:**
-- Serialize/deserialize tree
-- Validate BST
-- Construct tree from traversals
 
-**Real-world Application:**
-- Hierarchical data structures
-- Decision trees in ML
-- Expression trees
+### System Design Primer (`System Design/`)- Serialize/deserialize tree
 
----
+- `00-Framework.md` – interview framework and evaluation rubric.- Validate BST
+
+- `01-Capacity-Estimation.md` – sizing formulas, throughput/latency budgeting.- Construct tree from traversals
+
+- `02-Scalability-Patterns.md` – sharding, caching, replication strategies.
+
+- `03-Database-Selection.md` – OLTP vs OLAP guidance, polyglot persistence.**Real-world Application:**
+
+- `04-Caching-Strategies.md` – eviction policies, cache stampede mitigation.- Hierarchical data structures
+
+- `05-Message-Queues.md` – at-least-once delivery, back-pressure, ordering guarantees.- Decision trees in ML
+
+- `06-API-Design.md` – contract-first API development, versioning plans.- Expression trees
+
+- `07-Monitoring.md` – golden signals, alerting policy design.
+
+- `Implementations/` & `scenarios/` – applied design walk-throughs and drills.---
+
+- Supplementary reference: `Learning Resources/SystemDesign.pdf`.
 
 ## 🔥 Phase 3: Advanced (Weeks 9-12)
-### Goal: Master distributed systems & production patterns
 
-### Week 9: Distributed Systems Fundamentals
+## Phase 3 – Distributed Systems Mastery (Weeks 7–9)### Goal: Master distributed systems & production patterns
 
-#### Day 1-3: CAP Theorem & Distributed Systems Basics
-📁 `Distributed Systems/BEGINNER.md`  
-📁 `Distributed Systems/01-CAP-Theorem-Deep-Dive.md`
+### Distributed Systems Library (`Distributed Systems/`)
 
-**What You'll Learn:**
-- CAP theorem (Consistency, Availability, Partition Tolerance)
+- `BEGINNER.md`, `INTERMEDIATE.md`, `EXPERT.md` – progressive roadmap through eventual consistency, leader election, replication.### Week 9: Distributed Systems Fundamentals
+
+- `01-CAP-Theorem-Deep-Dive.md` – CAP vs PACELC trade-offs.
+
+- `02-Consensus-Algorithms-Paxos-Raft.md` and `04-Consensus-Algorithms.md` – quorum-based consensus implementations.#### Day 1-3: CAP Theorem & Distributed Systems Basics
+
+- `02-Cache-Architecture.md` – cache hierarchy design, cache invalidation strategies.📁 `Distributed Systems/BEGINNER.md`  
+
+- `03-Search-Systems.md` – distributed indexing, ranking pipelines.📁 `Distributed Systems/01-CAP-Theorem-Deep-Dive.md`
+
+- `PRODUCTION-RELIABILITY-PATTERNS.md` – bulkheading, circuit breakers, chaos testing.
+
+- `WHITEPAPERS.md` – curated reading list for seminal distributed systems papers.**What You'll Learn:**
+
+- `Network Protocols/` – transport fundamentals (TCP, gRPC, QUIC) and load balancing notes.- CAP theorem (Consistency, Availability, Partition Tolerance)
+
 - Distributed system challenges
-- Network models (synchronous vs asynchronous)
-- Time, clocks, and ordering (Lamport clocks)
-- Failure models
 
-**Study:**
-- CP vs AP systems
-- Eventual consistency
-- Vector clocks
-- Fallacies of distributed computing
+### Supplementary References- Network models (synchronous vs asynchronous)
+
+- `SystemDesign.pdf` – annotated slides for interview practice.- Time, clocks, and ordering (Lamport clocks)
+
+- `978-981-96-3201-5.pdf` – distributed systems textbook (optional deep dive).- Failure models
+
+
+
+## Phase 4 – Data Engineering Deep Dive (Weeks 10–16)**Study:**
+
+### Data Engineering Bible – Foundation (`Data Engineering Bible/1-Foundation/`)- CP vs AP systems
+
+- `1A_MapReduce/` – beginner to expert guides plus whitepapers on Hadoop lineage.- Eventual consistency
+
+- `1B_ETL_Basics/` – ingestion patterns, data quality gates, workflow templates.- Vector clocks
+
+- `1C_SQL_Deep_Dive/` – analytical SQL, windowing, optimizer hints.- Fallacies of distributed computing
+
+- `1D_Apache_Spark/` – RDD vs DataFrame internals, Catalyst planner, Tungsten engine.
 
 **Real-world Application:**
-- System design trade-offs
-- Database selection (MongoDB vs Cassandra)
-- Conflict resolution strategies
 
----
+### Data Engineering Bible – Intermediate (`2-Intermediate/2A_Kafka_Fundamentals/`)- System design trade-offs
 
-#### Day 4-7: Consensus Algorithms
-📁 `Distributed Systems/04-Consensus-Algorithms.md`  
-📁 `Distributed Systems/02-Consensus-Algorithms-Paxos-Raft.md`
+- `BEGINNER.md`, `INTERMEDIATE.md`, `EXPERT.md` – brokers, partitions, consumer groups, exactly-once semantics.- Database selection (MongoDB vs Cassandra)
 
-**What You'll Learn:**
-- Paxos algorithm (Basic Paxos, Multi-Paxos)
-- Raft consensus (leader election, log replication)
-- ZooKeeper Atomic Broadcast (ZAB)
-- FLP impossibility theorem
+- `WHITEPAPERS.md` – event streaming case studies.- Conflict resolution strategies
+
+
+
+### Data Engineering Bible – Advanced (`3-Advanced/`)---
+
+- `06-CDC-Patterns.md` – change data capture pipelines, Debezium patterns.
+
+- `07-Data-Lineage.md` – OpenLineage integration, governance workflows.#### Day 4-7: Consensus Algorithms
+
+- `08-Data-Quality-Part1..3.md` – validation engines, quarantine flows, metric-driven quality.📁 `Distributed Systems/04-Consensus-Algorithms.md`  
+
+- `09-Cost-Optimization-Part1..3.md` – storage format economics, workload-based cost controls.📁 `Distributed Systems/02-Consensus-Algorithms-Paxos-Raft.md`
+
+- `09-Event-Processing.md` – stream processing topologies, watermarking, state stores.
+
+- `10-Cloud-Service-Mapping-Part1..3.md` – multi-cloud abstractions, vendor equivalence playbooks.**What You'll Learn:**
+
+- `11-Performance-Capacity-Planning-Part1.md` – latency/throughput modeling, sizing formulas (Part 2/3 scheduled).- Paxos algorithm (Basic Paxos, Multi-Paxos)
+
+- `3A_Data_Warehousing/` – dimensional modeling, ELT orchestration.- Raft consensus (leader election, log replication)
+
+- `3B_Apache_Flink/` – stateful stream processing, CEP patterns.- ZooKeeper Atomic Broadcast (ZAB)
+
+- `3C_Apache_Beam/` – portable pipelines, unified batch/stream API.- FLP impossibility theorem
+
+- `3D_Lakehouse/` – Delta Lake, Iceberg, Hudi comparisons and adoption guides.
 
 **Study:**
-- Quorum-based approaches
-- Leader election
-- Split-brain scenarios
+
+### Data Engineering Bible – Production & Operations (`4-Production/`)- Quorum-based approaches
+
+- `4A_Orchestration/` – Airflow and Dagster best practices across skill tiers.- Leader election
+
+- `4B_Production_Systems/` – SRE integration, runbooks, post-incident reviews.- Split-brain scenarios
+
 - Fault tolerance
 
-**Real-world Application:**
+### Data Engineering Bible – Portfolio Projects (`5-Production-Projects/`)
+
+- `01-Real-Time-Pipeline/` – stepwise Kafka + Flink implementation (sessionization, aggregations).**Real-world Application:**
+
 - Distributed coordination (Zookeeper, etcd)
-- Distributed databases (Spanner, CockroachDB)
-- Leader election in microservices
 
----
+### Upcoming Modules (Tracked in project backlog)- Distributed databases (Spanner, CockroachDB)
 
-### Week 10: Distributed Algorithms for Production
+- Performance & Capacity Planning Parts 2–3 (implementation tracks, labs, benchmarks).- Leader election in microservices
 
-#### Day 1-3: Distributed Algorithms (Part 1-2)
-📁 `Algorithms/14-Distributed-Algorithms-Production-Part1.md`  
-📁 `Algorithms/14-Distributed-Algorithms-Production-Part2.md`
+- Security & Compliance, Observability & Reliability, Disaster Recovery, Data Privacy, Incident Response, Feature Store/ML Data Quality.
+
+- Benchmark & telemetry harness, chargeback automation, final readiness audit.---
+
+
+
+## Execution Guidance### Week 10: Distributed Algorithms for Production
+
+1. Use the phase ordering as the primary study sequence; drill DSA daily even while advancing phases.
+
+2. Pair each reading with implementation in the provided code exercises or your own sandbox.#### Day 1-3: Distributed Algorithms (Part 1-2)
+
+3. Capture metrics from `11-Performance-Capacity-Planning-Part1.md` to benchmark project work.📁 `Algorithms/14-Distributed-Algorithms-Production-Part1.md`  
+
+4. Treat `Distributed Systems/WHITEPAPERS.md` and `System Design/scenarios/` as weekly discussion prompts.📁 `Algorithms/14-Distributed-Algorithms-Production-Part2.md`
+
+5. Log progress in your own tracker; update the backlog items above as modules are completed.
 
 **What You'll Learn:**
 - **Consistent Hashing:** Virtual nodes, load balancing
